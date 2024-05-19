@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/06 11:39:32 by pbencze           #+#    #+#             */
-/*   Updated: 2023/08/07 20:23:03 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:54:55 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,19 +25,3 @@ int	ft_recursive_power(int nb, int power)
 	}
 	return (result);
 }
-/*
-#include <stdio.h>
-
-int main(void)
-{
-	int	nb;
-	int	power;
-
-	printf("Put a number: ");
-	scanf("%i", &nb);
-	printf("Put a power: ");
-	scanf("%i", &power);
-	printf("%i", ft_recursive_power(nb, power));
-	return (0);
-}
-*/

@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/06 13:48:55 by pbencze           #+#    #+#             */
-/*   Updated: 2023/08/07 20:14:17 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:55:16 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,20 +31,3 @@ int	ft_is_prime(int nb)
 	}
 	return (1);
 }
-/*
-#include <stdio.h>
-
-// return 0 if nb == 1 or 0 or is not prime
-int main(void)
-{
-	int	num;
-
-	printf("Enter a number: ");
-	scanf("%i", &num);
-	if (ft_is_prime(num) == 0)
-		printf("%i is not a prime.", num);
-	else
-		printf("%i is a prime.", num);
-	return (0);
-}
-*/

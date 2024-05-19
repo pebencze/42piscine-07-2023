@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/31 12:11:15 by pbencze           #+#    #+#             */
-/*   Updated: 2023/08/05 16:45:51 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:54:29 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,46 +75,3 @@ int	ft_invalid_base(char *base)
 	}
 	return (0);
 }
-/*
-#include <stdio.h>
-
-int main()
-{
-    char base_hex[] = "0123456789ABCDEF";
-    char base_bin[] = "01";
-    char base_invalid[] = "0123456701";
-    char base_empty[] = "";
-    char base_single[] = "0";
-    int number = 12345;
-
-    printf("Decimal %i in Hexadecimal: ", number);
-	printf("\n");
-	ft_putnbr_base(number, base_hex);
-	printf("\n");
-
-    printf("Decimal %i in Binary: ", number);
-	printf("\n");
-    ft_putnbr_base(number, base_bin);
-	printf("\n");
-
-
-    printf("Decimal %i in Invalid Base: ", number);
-	printf("\n");
-    ft_putnbr_base(number, base_invalid);
-	printf("\n");
-
-
-    printf("Decimal %i in Empty Base: ", number);
-	printf("\n");
-    ft_putnbr_base(number, base_empty);
-	printf("\n");
-
-
-    printf("Decimal %i in Single Digit Base: ", number);
-	printf("\n");
-    ft_putnbr_base(number, base_single);
-	printf("\n");
-
-    return (0);
-}
-*/

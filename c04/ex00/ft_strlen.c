@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 18:20:19 by pbencze           #+#    #+#             */
-/*   Updated: 2023/08/05 13:11:13 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:54:07 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,3 @@ int	ft_strlen(char *str)
 		i++;
 	return (i);
 }
-/*
-int	main(void)
-{
-	char	str[5] = "Hello";
-	char x = ft_strlen(str) + '0';
-	write(1, &x, 1);
-	return (0);
-}
-*/

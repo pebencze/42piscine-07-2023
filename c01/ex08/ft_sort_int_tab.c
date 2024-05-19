@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/24 10:50:30 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/24 11:25:23 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:52:25 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,15 +37,3 @@ void	ft_sort_int_tab(int *tab, int size)
 		i++;
 	}
 }
-/*
-int main()
-{
-	int arr[8] = {3, 1, 7, 6, 8, 9, 5, 2};
-	
-	ft_sort_int_tab(arr, 8);
-	for(int i = 0; i < 8; i++)
-	{
-		printf("%d", arr[i]);
-	}
-}
-*/

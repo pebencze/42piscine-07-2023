@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/25 15:49:30 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/25 16:07:48 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:52:51 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,15 +28,3 @@ int	ft_str_is_lowercase(char *str)
 	}
 	return (1);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	printf("%d", ft_str_is_lowercase("testingza"));
-	printf("%d", ft_str_is_lowercase(""));
-	printf("%d", ft_str_is_lowercase("Testing za"));
-	printf("%d", ft_str_is_lowercase("testingza!"));
-	return (0);
-}
-*/

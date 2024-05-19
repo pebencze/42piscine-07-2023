@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/20 13:50:50 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/20 16:09:56 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:50:51 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,10 +46,3 @@ void	ft_print_comb(void)
 		i++;
 	}
 }
-/*
-int	main(void)
-{
-	ft_print_comb();
-	return (0);
-}
-*/

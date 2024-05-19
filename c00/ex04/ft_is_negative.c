@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/20 11:54:41 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/20 13:40:48 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:50:39 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,3 @@ void	ft_is_negative(int n)
 		write(1, "P", 1);
 	}
 }
-/*
-int	main(void)
-{
-	ft_is_negative(-2147483647);
-	return (0);
-}
-*/

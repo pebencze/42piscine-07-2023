@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 18:40:57 by pbencze           #+#    #+#             */
-/*   Updated: 2023/08/03 19:10:05 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:54:11 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,11 +23,3 @@ void	ft_putstr(char *str)
 		i++;
 	}
 }
-/*
-int	main(void)
-{
-	char str[5] = "Hello";
-	ft_putstr(str);
-	return (0);
-}
-*/

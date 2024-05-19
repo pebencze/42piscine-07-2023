@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/25 14:02:53 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/27 11:28:24 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:52:42 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,15 +27,3 @@ int	ft_str_is_alpha(char *str)
 	}
 	return (1);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	printf("%d", ft_str_is_alpha("Testingza"));
-	printf("%d", ft_str_is_alpha(""));
-	printf("%d", ft_str_is_alpha("Testing za"));
-	printf("%d", ft_str_is_alpha("Testingza!"));
-	return (0);
-}
-*/

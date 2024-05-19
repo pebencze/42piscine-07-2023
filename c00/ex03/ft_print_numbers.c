@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/20 11:36:21 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/20 13:39:33 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:50:34 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,3 @@ void	ft_print_numbers(void)
 		digit++;
 	}
 }
-/*
-int	main(void)
-{
-	ft_print_numbers();
-	return (0);
-}
-*/

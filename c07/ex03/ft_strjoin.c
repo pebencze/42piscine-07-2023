@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/08 11:50:09 by pbencze           #+#    #+#             */
-/*   Updated: 2023/08/09 13:43:19 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:56:06 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,24 +97,3 @@ int	ft_strlen(char *str)
 		i++;
 	return (i);
 }
-/*
-#include <stdio.h>
-
-int main()
-{
-	char *strs[] = {"Hello", "world", "of", "programming"};
-	char *sep = ", ";
-	char *joined = ft_strjoin(0, strs, sep);
-
-	if (joined != NULL)
-	{
-		printf("Joined string: %s\n", joined);
-		free (joined);
-	}
-	else
-	{
-		printf("Memory allocation error.\n");
-	}
-	return (0);
-}
-*/

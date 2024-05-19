@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/06 17:18:25 by pbencze           #+#    #+#             */
-/*   Updated: 2023/08/07 20:34:54 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:55:21 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,16 +45,3 @@ int	ft_find_next_prime(int nb)
 		i++;
 	return (i);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	int	nb;
-
-	printf("Enter a number: ");
-	scanf("%i", &nb);
-	printf("The next prime is: %i", ft_find_next_prime(nb));
-	return (0);
-}
-*/

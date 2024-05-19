@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/31 10:36:31 by pbencze           #+#    #+#             */
-/*   Updated: 2023/08/05 14:02:16 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:54:21 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,11 +37,3 @@ int	ft_atoi(char *str)
 	}
 	return (atoi_value * sign);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	printf("%i", ft_atoi("---+--09865abc379"));
-	return (0);
-}
-*/

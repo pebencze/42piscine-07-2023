@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/06 13:22:48 by pbencze           #+#    #+#             */
-/*   Updated: 2023/08/06 19:37:43 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:55:10 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,17 +30,3 @@ int	ft_sqrt(int nb)
 	}
 	return (0);
 }
-/*
-//binary search
-#include <stdio.h>
-
-int	main(void)
-{
-	int	num;
-
-	printf("Enter a number: ");
-	scanf("%i", &num);
-	printf("The sqrt of %i is %i.", num, ft_sqrt(num));
-	return (0);
-}
-*/

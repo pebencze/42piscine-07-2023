@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/21 20:32:10 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/26 15:35:32 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:51:45 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,22 +18,3 @@ void	ft_swap(int *a, int *b)
 	*a = *b;
 	*b = c;
 }
-/*
-int main(void)
-{
-    int *a;
-    int *b;
-    int i;
-    int j;
-
-    a = &i;
-    b = &j;
-
-    i = 48;
-    j = 49;
-
-    ft_swap(a, b);
-    printf("%i", i);
-    printf("%i", j);
-    return (0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/24 12:19:17 by pbencze           #+#    #+#             */
-/*   Updated: 2023/08/02 10:57:40 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:52:31 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,22 +25,3 @@ char	*ft_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-
-/*
-#include <stdio.h>
-int main(void)
-{
-	char src[] = "abcdefg";
-	char *dest;
-
-	ft_strcpy(dest, src);
-
-	int j = 0;
-	while (dest[j])
-	{
-		printf("%c", dest[j]);
-		j++;
-	}
-	return (0);
-}
-*/

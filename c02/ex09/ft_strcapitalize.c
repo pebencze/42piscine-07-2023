@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/25 18:14:36 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/26 13:20:37 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:53:18 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,13 +61,3 @@ char	*ft_strlowcase(char *str)
 	}
 	return (str);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char str[] = "sAlut, comMent Tu vas ? 42mOts 64 quarante-deux; cinquante+et+un";
-	printf("%s", ft_strcapitalize(str));
-	return (0);
-}
-*/

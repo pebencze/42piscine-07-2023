@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/07 12:30:01 by pbencze           #+#    #+#             */
-/*   Updated: 2023/08/09 13:28:04 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:55:53 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,22 +34,3 @@ int	*ft_range(int min, int max)
 	}
 	return (tab);
 }
-/*
-#include <stdio.h>
-//tab = (int *)malloc((max - min) * sizeof(int))
-//sizeof(int) important!! (4)
-int main()
-{
-    int min = -10;
-    int max = 10;
-    int *result = ft_range(min, max);
-
-    if (result != NULL)
-    {
-        for (int i = 0; i < max - min; i++)
-            printf("%d\n", result[i]);
-        free(result);
-	}
-    return (0);
-}
-*/

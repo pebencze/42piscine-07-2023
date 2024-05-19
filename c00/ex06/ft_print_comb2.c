@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_comb2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pbencze <pbencze@student.42.fr>            +#+  +:+       +#+        */
+/*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/20 17:50:10 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/20 20:34:19 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:51:06 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,10 +63,3 @@ void	ft_print_comb2(void)
 	l = 0;
 	ft_loop(i, j, k, l);
 }
-/*
-int	main(void)
-{
-	ft_print_comb2();
-	return (0);
-}
-*/

@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/07 10:17:26 by pbencze           #+#    #+#             */
-/*   Updated: 2023/08/09 13:44:32 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:55:46 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,27 +54,3 @@ char	*ft_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-/*
-#include <string.h>
-#include <stdio.h>
-
-int main() {
-    char *source = "Hello, World!";
-    char *duplicate = ft_strdup(source);
-	char *duplicate2 = strdup(source);
-
-    if (duplicate != NULL) {
-        printf("Source: %s\n", source);
-        printf("Duplicate: %s\n", duplicate);
-        free(duplicate);
-	}
-	if (duplicate2 != NULL) {
-        printf("Source: %s\n", source);
-		printf("Duplicate: %s\n", duplicate2);
-		free(duplicate2);
-    } else {
-        printf("Memory allocation failed.\n");
-    }
-    return (0);
-}
-*/

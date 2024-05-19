@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/21 20:00:59 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/26 15:32:12 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:51:53 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ void	ft_ultimate_ft(int *********nbr)
 	*********nbr = 42;
 }
 
-#include <unistd.h>
+/* #include <unistd.h>
 int	main()
 {
 	int v;
@@ -43,5 +43,5 @@ int	main()
 	ft_ultimate_ft(p9);
 	write(1, &v, 1);
 	return (0);
-}
+} */
 

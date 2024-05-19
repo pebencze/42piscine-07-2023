@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/23 16:07:56 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/26 15:23:45 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:52:13 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,12 +23,3 @@ int	ft_strlen(char *str)
 	}
 	return (size);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	int x = ft_strlen("abcdefg");
-	printf("%i", x);
-	return (0);
-}
-*/

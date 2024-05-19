@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/07 14:13:03 by pbencze           #+#    #+#             */
-/*   Updated: 2023/08/09 13:42:52 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:55:59 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,26 +36,3 @@ int	ft_ultimate_range(int **range, int min, int max)
 	}
 	return (i);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	int *arr = NULL;
-	int i;
-
-	int size = ft_ultimate_range(&arr, 1, 6);
-
-	if (size == -1)
-		return (1);
-	i = 0;
-	while (i < size)
-	{
-		printf("%d \n", arr[i]);
-		i++;
-	}
-	printf("%i", size);
-	free(arr);
-	return (0);
-}
-*/

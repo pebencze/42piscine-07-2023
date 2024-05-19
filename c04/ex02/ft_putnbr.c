@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 18:52:01 by pbencze           #+#    #+#             */
-/*   Updated: 2023/08/05 14:43:01 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:54:16 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,12 +37,3 @@ void	ft_putnbr(int nb)
 		ft_putnbr(nb % 10);
 	}
 }
-/*
-int	main(void)
-{
-	ft_putnbr(-230);
-	ft_putnbr(0);
-	ft_putnbr(-2147483648);
-	return (0);
-}
-*/

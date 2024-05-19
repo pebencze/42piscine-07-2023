@@ -6,18 +6,12 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/19 16:50:49 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/20 13:28:37 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:50:13 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
+
 
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
-/*
-void	main(void)
-{
-	ft_putchar('b');
-}
-*/

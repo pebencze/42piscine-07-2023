@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/25 17:47:13 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/25 18:13:09 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:53:12 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,13 +25,3 @@ char	*ft_strlowcase(char *str)
 	}
 	return (str);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char str[] = "IaM Not upperCAs3!";
-	printf("%s", ft_strlowcase(str));
-	return (0);
-}
-*/

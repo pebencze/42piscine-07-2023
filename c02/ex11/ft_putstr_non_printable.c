@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 09:40:14 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/26 13:27:32 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:53:37 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,21 +36,3 @@ void	ft_putstr_non_printable(char *str)
 		i++;
 	}
 }
-/*
-int	main(void)
-{
-	char	*str;
-	str = "ab\ncc\0";
-	/
-	char str = {1, 127, 45, 9, 17, 0};
-	str[1] = 1;
-	str[2] = 0;
-	str[3] = 127;
-	str[4] = 34;
-	str[5] = 97;
-	str[6] = 126;
-	/
-	ft_putstr_non_printable(str);
-	return (0);
-}
-*/

@@ -6,7 +6,7 @@
 /*   By: pbencze <pbencze@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 13:22:42 by pbencze           #+#    #+#             */
-/*   Updated: 2023/07/26 20:25:52 by pbencze          ###   ########.fr       */
+/*   Updated: 2024/05/19 16:53:24 by pbencze          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,18 +32,3 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 	dest[i] = '\0';
 	return (rv);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char	src[] = "aljdoekd\0";
-	char	dest[10];
-
-	ft_strlcpy(dest, src, 10);
-	printf("%d", ft_strlcpy(dest, src, 10));
-	printf("%s", dest);
-	printf("%s", src);
-	return (0);
-}
-*/
